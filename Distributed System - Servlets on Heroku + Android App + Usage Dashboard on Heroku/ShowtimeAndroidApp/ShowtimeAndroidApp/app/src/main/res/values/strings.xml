@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to Showtime app! Search for a TV show below:</string>
+    <string name="app_name">Showtime</string>
+    <string name="action_settings">Action</string>
+</resources>

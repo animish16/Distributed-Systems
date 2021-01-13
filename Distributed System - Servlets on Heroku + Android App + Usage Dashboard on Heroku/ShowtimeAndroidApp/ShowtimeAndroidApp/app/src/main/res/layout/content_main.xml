@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/hello" android:id="@+id/helloText"/>
+    <EditText
+            android:id="@+id/searchTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:focusedByDefault="false"/>
+    <Button
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#FAFAFA"
+            android:backgroundTint="#FAFAFA"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showFound" android:visibility="invisible"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showName" android:textSize="24sp"
+            android:textColor="#2196F3" android:visibility="invisible"/>
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/showImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showType" android:textColor="#000000"
+            tools:visibility="invisible"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showLanguage" android:textColor="#000000"
+            tools:visibility="invisible"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showGenres" android:textColor="#000000"
+            android:visibility="invisible"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showRating" android:textColor="#000000"
+            tools:visibility="invisible"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showPremiered" android:textColor="#000000"
+            tools:visibility="invisible"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showStatus" android:textColor="#000000"
+            tools:visibility="invisible"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showRuntime" android:textColor="#000000"
+            tools:visibility="invisible"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/showSummary" android:textColor="#000000"
+            tools:visibility="invisible"/>
+</LinearLayout>
